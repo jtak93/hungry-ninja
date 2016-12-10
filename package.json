@@ -1,0 +1,19 @@
+{
+  "name": "hungry-ninja",
+  "version": "1.0.0",
+  "description": "Hungry Ninja's Front end Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtak93/hungry-ninja.git"
+  },
+  "author": "James Tak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtak93/hungry-ninja/issues"
+  },
+  "homepage": "https://github.com/jtak93/hungry-ninja#readme"
+}
