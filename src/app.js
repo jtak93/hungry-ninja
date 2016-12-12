@@ -5,9 +5,9 @@ require('./scss/main.scss');
 class App extends Component {
   render() {
     return (
-      <div>
+      <main>
         <h1>whats up Errybudy!?</h1>
-      </div>
+      </main>
     );
   }
 }
