@@ -1,9 +1,6 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import NavBar from './appbar/appbar';
+import NavBar from './appbar/AppBarContainer';
 import "../scss/main.scss";
 
 
@@ -17,9 +14,7 @@ export default class App extends React.Component {
 
     return (
       <div>
-        <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
-          <NavBar />
-        </MuiThemeProvider>
+        <NavBar />
         {this.props.children}
       </div>
     );
