@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import NavBar from './appbar/AppBarContainer';
+import NavbarContainer from './navbar/NavbarContainer';
 import "../scss/main.scss";
 
 
@@ -14,7 +14,7 @@ export default class App extends React.Component {
 
     return (
       <div>
-        <NavBar />
+        <NavbarContainer />
         {this.props.children}
       </div>
     );
