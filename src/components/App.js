@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from 'react-dom';
+import $ from 'jquery';
 import NavbarContainer from './navbar/NavbarContainer';
 import "../scss/main.scss";
 
