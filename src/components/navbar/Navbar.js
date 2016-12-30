@@ -1,13 +1,13 @@
 import React from 'react';
-var $ = require('jquery');
-import {Navbar, NavItem, SideNav} from 'react-materialize'
+import { Router, Route, Link } from 'react-router'
+import {Navbar} from 'react-materialize'
 const navbarInstance = (props) => {
   return (
     <Navbar brand={props.title} right>
-      <NavItem href='/about'>About</NavItem>
-      <NavItem href='components.html'>Menu</NavItem>
-      <NavItem href='components.html'>Locations</NavItem>
-      <NavItem href='components.html'>Order Online</NavItem>
+      <Link to='/about'>About</Link>
+      <Link to='/menu'>Menu</Link>
+      <Link to='/locations'>Locations</Link>
+      <Link to='/order'>Order Online</Link>
     </Navbar>
   )
 }
